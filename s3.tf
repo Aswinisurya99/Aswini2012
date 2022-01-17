@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "b" {
   acl    = "private"
 
   tags = {
-    Name        = "Mynew2012 bucket"
+    Name        = "Mynewbuck2012"
     Environment = "Dev"
   }
 }
