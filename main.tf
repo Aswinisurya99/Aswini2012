@@ -8,7 +8,7 @@ resource "aws_instance" "ec2_example" {
    count = 1
 
    tags = {
-           Name = "Terraform EC2"
+           Name = "NEWEC2"
    }
 
 }
